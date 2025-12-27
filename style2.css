@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+
+@font-face{
+    font-family: "Papakilo";
+    src: url(fonts/PapaKilo\ -\ Light.ttf) format('opentype');
+}
+
+
+:root{
+    --cor1:#75b4be;
+    --cor2:#780bcb;
+    --cor3:#f15b8c;
+    --cor4:#ba23a0;
+    --cor5:#c215c593;
+    --cor6:#4ee0cc;
+    --cor7:#3FEB5C;
+    --cor8:#297077;
+    --cor9:#C73240;
+    --cor10:#F69244;
+    
+
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+    --font-destaque: "Science Gothic", sans-serif;
+    --fonte-papa: 'Papakilo', cursive;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li::before{
+    content: '👾';
+    margin-right: 0.5cm;
+}
+
+
+
+body{
+    background-image: linear-gradient(to top,var(--cor3), var(--cor3), var(--cor2));
+    font-family: var(--fonte-padrao);
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), transparent);
+    background-size: cover;
+    text-align: center;
+    padding-top: 20px;
+    min-height: 150px;
+}
+header h1 {
+    font-family: var(--fonte-papa);
+    color: var(--cor6);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.385);
+    font-size: 5em;
+}
+header p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:var(--cor1);
+}
+
+
+
+
+
+nav {
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+nav a {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-decoration:none;
+    font-weight:bold; 
+}
+nav a:hover{
+    background-image: linear-gradient(to top,var(--cor4), transparent);
+    color:var(--cor6);  
+}
+
+
+
+
+
+main{
+    background-image:linear-gradient(to bottom, var(--cor5), var(--cor3));
+    color: aliceblue;
+    min-width: 320px;
+    max-width: 720px;
+    margin: auto;
+    padding: 20px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.385);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main h2 {
+    font-family: var(--font-destaque);
+    background-image: linear-gradient(to bottom, var(--cor2), transparent);
+    text-align: center;
+    padding: 0px 0px -10px 10px;
+}
+main h3{
+    font-family: var(--font-destaque);
+    padding-left: 12px;
+}
+main h4 {
+    font-family: var(--font-destaque);
+    padding-left: 12px;
+    margin-bottom: 0px;
+}
+main p {
+    font-family: var(--font-destaque);
+    text-indent: 20px;
+    line-height: 1em;
+    padding: 10px;
+}
+main a {
+    color: var(--cor2);
+    text-decoration: none;
+    font-weight: bold;
+}
+main img {
+    width: 100%;
+    max-width: 600px;
+    max-height: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.385);
+}
+main ul{
+    font-family: var(--font-destaque);
+    list-style: none;
+    padding: 15px;    
+    margin-top: 0px;
+    margin-bottom: 20px; 
+}
+
+
+
+main .fullon {
+    font-family: var(--font-destaque);
+    background-image: linear-gradient(to right, var(--cor6), transparent);
+    color: var(--cor2);
+}
+main #lista {
+ font-family: var(--font-destaque);
+ background-color: var(--cor6);
+ color: var(--cor2);
+}
+main #listafullon{
+     background-image: linear-gradient(to bottom, var(--cor6), transparent);
+ }
+
+
+
+main .dark{
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    margin-top: 20px;
+ }
+main #lista2{
+    background-color: var(--cor2)
+}
+main #listadark{
+    background-image: linear-gradient(to bottom, var(--cor2), transparent);
+}
+
+
+
+main .forest{
+    background-image: linear-gradient(to right, var(--cor7), transparent);
+    margin-top: 20px;
+}
+main #lista3{
+    background-color: var(--cor7);
+}
+main #listaforst{
+     background-image: linear-gradient(to bottom, var(--cor7), transparent)   
+}
+
+
+main .prog{
+    background-image: linear-gradient(to right, var(--cor8) , transparent);
+    margin-top: 20px;
+}
+main #lista4{
+     background-color: var(--cor8) ;
+}
+main #listaprog{
+    background-image: linear-gradient(to bottom, var(--cor8), transparent);
+}
+
+main .hitech{
+    background-image: linear-gradient(to right, var(--cor9) , transparent);
+    margin-top: 20px;
+}
+main #lista5{
+   background-color: var(--cor9);
+}
+main #listahitech{
+   background-image: linear-gradient(to bottom, var(--cor9), transparent);
+}
+
+
+
+aside {
+    background-image:linear-gradient(to bottom, var(--cor10), transparent);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+aside h3{
+    font-family: var(--font-destaque);
+    text-align: center;
+    margin: 10px 10px 10px 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+aside h4 {
+    font-family: var(--font-destaque);
+    text-align: center;
+    margin: 10px 10px 10px 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+
+footer{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
+    color: var(--cor6);
+    text-align: center;
+    margin-top: 5px;
+}
