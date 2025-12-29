@@ -167,7 +167,17 @@ footer{
     text-align: center;
     margin-top: 15px;
     padding: 6px;
-    
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bolder;
+    color:var(--cor6);
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
 }
 
 
