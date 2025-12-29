@@ -82,7 +82,7 @@ nav a:hover{
 
 
 main{
-    background-color:#4f0f5077;;
+    background-color:#4f0f5077;
     color: aliceblue;
     min-width: 320px;
     max-width: 720px;
@@ -122,9 +122,9 @@ main a {
 }
 main img {
     width: 100%;
-    max-width: 600px;
-    max-height: 300px;
-    height: auto;
+    height: 100%;
+    max-width: 500px;
+    aspect-ratio: 16/9;
     display: block;
     margin: auto;
     border-radius: 20px;
@@ -165,7 +165,7 @@ footer{
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor2));
     color: var(--cor6);
     text-align: center;
-    margin-top: 11px;
+    margin-top: 15px;
     padding: 6px;
     
 }
@@ -173,7 +173,7 @@ footer{
 
 div.video{
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   aspect-ratio: 16 / 9;
   margin: 20px auto;
 }
